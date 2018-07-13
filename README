@@ -2,6 +2,9 @@ An Erlang library for calculating the Levenshtein or edit distance between two s
 
 1> levenshtein:levenshtein_distance("hello world", "dlrow olleh").
 8
-
+2> levenshtein:levenshtein_distance("", "").                      
+0
+3> levenshtein:levenshtein_distance("Well for starters, it's obvious that the Mailman's queer communication style-those long time delays-is a ploy. I know that fellow is listening all the time to what's going on in the Coven meeting hall. And he commands a number of sprites in real time.", "But even if the Mailman were an Australian, the low satellite net made delays so short that he would probably be indistinguishable from a European or a Japanese. There was no place on Earth where. ..but there are places off Earth! The mass- transit satellites were in synchronous orbit 120 milliseconds out. There were about two hundred people there. And further out, at L5, there were at least another four hundred. Some were near- permanent residents. A strange idea, but still a possibility.").
+368
 
 https://en.wikipedia.org/wiki/Levenshtein_distance

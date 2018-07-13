@@ -1,0 +1,7 @@
+An Erlang library for calculating the Levenshtein or edit distance between two strings.
+
+`1> levenshtein:levenshtein_distance("hello world", "dlrow olleh").
+8
+`
+
+https://en.wikipedia.org/wiki/Levenshtein_distance
